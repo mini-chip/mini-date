@@ -18,8 +18,8 @@
   ],
   "sideEffects": false,
   "peerDependencies": {
-    "react": ">=18.2 <20",
-    "react-dom": ">=18.2 <20"
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
   },
   "dependencies": {
     "@mini-date/core": "workspace:*"
@@ -29,6 +29,9 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "devDependencies": {
+    "@types/react": "19.0.1",
+    "react": "19.0.0",
+    "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   }
 }

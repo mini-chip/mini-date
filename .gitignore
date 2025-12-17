@@ -15,3 +15,16 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
+
+# node / logs
+node_modules
+*.log
+
+# yarn berry (PnP)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
