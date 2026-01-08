@@ -21,7 +21,7 @@
     "react-dom": ">=19.0.0"
   },
   "dependencies": {
-    "@mini-date/core": "workspace:*"
+    "@library-token/core": "workspace:*"
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",

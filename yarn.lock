@@ -621,6 +621,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@library-token/core@workspace:*, @library-token/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@library-token/core@workspace:packages/core"
+  dependencies:
+    tsup: "npm:^8.5.1"
+    typescript: "npm:^5.9.3"
+  languageName: unknown
+  linkType: soft
+
+"@library-token/react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@library-token/react@workspace:packages/react"
+  dependencies:
+    "@library-token/core": "workspace:*"
+    "@types/react": "npm:19.0.1"
+    react: "npm:19.0.0"
+    tsup: "npm:^8.5.1"
+    typescript: "npm:^5.9.3"
+  peerDependencies:
+    react: ">=19.0.0"
+    react-dom: ">=19.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@manypkg/find-root@npm:^1.1.0":
   version: 1.1.0
   resolution: "@manypkg/find-root@npm:1.1.0"
@@ -646,30 +670,6 @@ __metadata:
   checksum: 10c0/f05907d1174ae28861eaa06d0efdc144f773d9a4b8b65e1e7cdc01eb93361d335351b4a336e05c6aac02661be39e8809a3f7ad28bc67b6b338071434ab442130
   languageName: node
   linkType: hard
-
-"@mini-date/core@workspace:*, @mini-date/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@mini-date/core@workspace:packages/core"
-  dependencies:
-    tsup: "npm:^8.5.1"
-    typescript: "npm:^5.9.3"
-  languageName: unknown
-  linkType: soft
-
-"@mini-date/react@workspace:packages/react":
-  version: 0.0.0-use.local
-  resolution: "@mini-date/react@workspace:packages/react"
-  dependencies:
-    "@mini-date/core": "workspace:*"
-    "@types/react": "npm:19.0.1"
-    react: "npm:19.0.0"
-    tsup: "npm:^8.5.1"
-    typescript: "npm:^5.9.3"
-  peerDependencies:
-    react: ">=19.0.0"
-    react-dom: ">=19.0.0"
-  languageName: unknown
-  linkType: soft
 
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
