@@ -25,7 +25,7 @@ __export(index_exports, {
 });
 module.exports = __toCommonJS(index_exports);
 var import_react = require("react");
-var import_core = require("@mini-date/core");
+var import_core = require("@library-token/core");
 function useRangeCalendar({
   value,
   onChange,

@@ -8,7 +8,7 @@ import {
   compareYMD,
   isBetweenYMD,
   isSameYMD
-} from "@mini-date/core";
+} from "@library-token/core";
 function useRangeCalendar({
   value,
   onChange,

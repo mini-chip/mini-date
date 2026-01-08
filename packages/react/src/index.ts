@@ -1,14 +1,14 @@
 "use client";
 
 import { useCallback, useMemo, useState } from "react";
-import type { DateRange, DayCell } from "@mini-date/core";
+import type { DateRange, DayCell } from "@library-token/core";
 import {
   applyRangeClick,
   buildMonthGrid,
   compareYMD,
   isBetweenYMD,
   isSameYMD,
-} from "@mini-date/core";
+} from "@library-token/core";
 
 type WeekStartsOn = 0 | 1;
 

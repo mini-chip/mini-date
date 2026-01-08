@@ -1,6 +1,6 @@
 {
   "name": "@library-token/react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -21,7 +21,7 @@
     "react-dom": ">=19.0.0"
   },
   "dependencies": {
-    "@library-token/core": "workspace:*"
+    "@library-token/core": "^0.0.1"
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",

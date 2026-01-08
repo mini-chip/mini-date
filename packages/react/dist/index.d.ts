@@ -1,4 +1,4 @@
-import { DateRange, DayCell } from '@mini-date/core';
+import { DateRange, DayCell } from '@library-token/core';
 
 type WeekStartsOn = 0 | 1;
 type UseRangeCalendarParams = {
